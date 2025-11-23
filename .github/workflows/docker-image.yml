@@ -32,5 +32,5 @@ jobs:
           context: ./
           push: true
           tags: |
-            dinod/docker-automation:${{ env.SHORT_SHA }}
-            dinod/docker-automation:latest
+            dinod001/docker-automation:${{ env.SHORT_SHA }}
+            dinod001/docker-automation:latest
